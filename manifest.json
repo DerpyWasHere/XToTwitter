@@ -22,6 +22,8 @@
         "clipboardWrite"
     ],
 
-    "id": "xtotwitter@derpywashere.ca"
+    "gecko": {
+      "id": "{17a551b9-a693-473a-b3be-c76976cfb2ab}"
+    }
   }
   
