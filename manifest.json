@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "XToTwitter",
-    "version": "1.2",
+    "version": "1.3",
   
     "description": "Changes X urls to Twitter urls in the clipboard.",
   
