@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "XToTwitter",
+    "version": "1.0",
+  
+    "description": "Changes X urls to Twitter urls in the clipboard.",
+  
+    "icons": {
+      "48": "icons/icon.svg",
+      "96": "icons/icon.svg"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.mozilla.org/*", "*://x.com/*", "*://twitter.com/*"],
+        "js": ["XToTwitter.js"]
+      }
+    ],
+
+    "permissions": [
+        "clipboardRead",
+        "clipboardWrite"
+    ],
+
+    "id": "xtotwitter@derpywashere.ca"
+  }
+  
