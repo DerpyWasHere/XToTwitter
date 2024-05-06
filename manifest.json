@@ -12,7 +12,7 @@
   
     "content_scripts": [
       {
-        "matches": ["*://*.mozilla.org/*", "*://x.com/*", "*://twitter.com/*"],
+        "matches": ["*://x.com/*", "*://twitter.com/*"],
         "js": ["XToTwitter.js"]
       }
     ],
